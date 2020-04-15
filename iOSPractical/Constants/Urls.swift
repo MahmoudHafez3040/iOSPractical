@@ -7,3 +7,9 @@
 //
 
 import Foundation
+ 
+class AppUrls
+{
+    static var BaseUrl: String = "https://alarabyqa.ihorizons.com/mobile-app/"
+    static var Home = "\(BaseUrl)home?items=10&page=1"
+}

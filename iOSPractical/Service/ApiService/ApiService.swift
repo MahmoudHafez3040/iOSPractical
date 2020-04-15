@@ -1,9 +1,10 @@
-//
-//  ApiService.swift
-//  iOSPractical
-//
-//  Created by MahmoudHafez on 4/12/20.
-//  Copyright © 2020 MahmoudHafez. All rights reserved.
-//
-
 import Foundation
+import Alamofire
+
+ class ApiService : NSObject{
+    
+    enum services :String{
+        case posts = "posts"
+    }
+  
+}

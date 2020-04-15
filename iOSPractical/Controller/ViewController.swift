@@ -7,14 +7,31 @@
 //
 
 import UIKit
+import Alamofire
+import SwiftyJSON
 
 class ViewController: UIViewController {
-
+    
+    var news :  [HomeModel]? = []
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        requestData()
     }
-
-
+    
+    private func requestData()
+    {
+        HomeService.getHomeService { (error, true, data) in
+            if let news = data
+            {
+                print( news[0].nid)
+            }
+        }
+    }
 }
+//extension ViewController : UITableViewDtaSource
+//
+//{
+//    
+//}
 

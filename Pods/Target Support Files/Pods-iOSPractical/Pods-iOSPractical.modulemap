@@ -1,0 +1,6 @@
+framework module Pods_iOSPractical {
+  umbrella header "Pods-iOSPractical-umbrella.h"
+
+  export *
+  module * { export * }
+}
