@@ -1,4 +1,4 @@
- platform :ios, '9.0'
+ platform :ios, '10.0'
 
 target 'iOSPractical' do
   use_frameworks!
@@ -6,5 +6,8 @@ target 'iOSPractical' do
   # Pods for iOSPractical
 pod 'Alamofire'
 pod 'SwiftyJSON'
-pod 'AlamofireObjectMapper'
+pod 'AlamofireObjectMapper', :git => 'https://github.com/RomanPodymov/AlamofireObjectMapper.git', :branch => 'xcode-10-2-fix'
+
+pod 'Kingfisher'
+pod 'SideMenu'
 end

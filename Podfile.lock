@@ -1,29 +1,46 @@
 PODS:
   - Alamofire (4.9.1)
-  - AlamofireObjectMapper (5.2.1):
+  - AlamofireObjectMapper (5.1.0):
     - Alamofire (~> 4.7)
     - ObjectMapper (~> 3.4)
+  - Kingfisher (4.10.1)
   - ObjectMapper (3.5.2)
+  - SideMenu (5.0.1)
   - SwiftyJSON (5.0.0)
 
 DEPENDENCIES:
   - Alamofire
-  - AlamofireObjectMapper
+  - AlamofireObjectMapper (from `https://github.com/RomanPodymov/AlamofireObjectMapper.git`, branch `xcode-10-2-fix`)
+  - Kingfisher
+  - SideMenu
   - SwiftyJSON
 
 SPEC REPOS:
   trunk:
     - Alamofire
-    - AlamofireObjectMapper
+    - Kingfisher
     - ObjectMapper
+    - SideMenu
     - SwiftyJSON
+
+EXTERNAL SOURCES:
+  AlamofireObjectMapper:
+    :branch: xcode-10-2-fix
+    :git: https://github.com/RomanPodymov/AlamofireObjectMapper.git
+
+CHECKOUT OPTIONS:
+  AlamofireObjectMapper:
+    :commit: 0cbb1f954b9432124c30955514e0219c2d8e5a33
+    :git: https://github.com/RomanPodymov/AlamofireObjectMapper.git
 
 SPEC CHECKSUMS:
   Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
-  AlamofireObjectMapper: 1989f690e982b71921b9253f53a4f33a9bc00d88
+  AlamofireObjectMapper: 9fec33dcec52497a2a32678cd3a7b597b5a32514
+  Kingfisher: c148cd7b47ebde9989f6bc7c27dcaa79d81279a0
   ObjectMapper: b53ae947d370bf89423e86be7d4e2d2b2a8d3f40
+  SideMenu: 87efd943737bb83aedf0358884d09fcf5576636d
   SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
 
-PODFILE CHECKSUM: f5c7cbec25f71040c6fd6aba8082642062ac2c1c
+PODFILE CHECKSUM: 74782d4b5e1161a86466ad9ec923863863e64f38
 
 COCOAPODS: 1.9.1
