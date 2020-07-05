@@ -1,0 +1,39 @@
+
+/* Class = "UIBarButtonItem"; title = "Item"; ObjectID = "3wa-L4-wGW"; */
+"3wa-L4-wGW.title" = "Item";
+
+/* Class = "UILabel"; text = "Notification"; ObjectID = "5xp-Zd-kTo"; */
+"5xp-Zd-kTo.text" = "Notification";
+
+/* Class = "UITabBarItem"; title = "Item"; ObjectID = "79G-1Y-clZ"; */
+"79G-1Y-clZ.title" = "Item";
+
+/* Class = "UITabBarItem"; title = "Item"; ObjectID = "8K1-ee-YwQ"; */
+"8K1-ee-YwQ.title" = "Item";
+
+/* Class = "UITabBarItem"; title = "Item"; ObjectID = "FZJ-yP-1Ya"; */
+"FZJ-yP-1Ya.title" = "Item";
+
+/* Class = "UILabel"; text = "NewsPaper"; ObjectID = "LPo-qR-aOd"; */
+"LPo-qR-aOd.text" = "NewsPaper";
+
+/* Class = "UINavigationItem"; title = "Todoey"; ObjectID = "Z79-8Y-fgQ"; */
+"Z79-8Y-fgQ.title" = "Todoey";
+
+/* Class = "UILabel"; text = "More"; ObjectID = "ct6-ll-Tln"; */
+"ct6-ll-Tln.text" = "More";
+
+/* Class = "UITabBarItem"; title = "Item"; ObjectID = "dAn-CU-z2Q"; */
+"dAn-CU-z2Q.title" = "Item";
+
+/* Class = "UITabBarItem"; title = "Item"; ObjectID = "gra-Cc-kOV"; */
+"gra-Cc-kOV.title" = "Item";
+
+/* Class = "UIViewController"; title = "Notification"; ObjectID = "nGH-Ef-xY3"; */
+"nGH-Ef-xY3.title" = "Notification";
+
+/* Class = "UILabel"; text = "البث المباشر"; ObjectID = "qdU-ra-kPL"; */
+"qdU-ra-kPL.text" = "البث المباشر";
+
+/* Class = "UIBarButtonItem"; title = "Item"; ObjectID = "xW3-oC-o1F"; */
+"xW3-oC-o1F.title" = "Item";

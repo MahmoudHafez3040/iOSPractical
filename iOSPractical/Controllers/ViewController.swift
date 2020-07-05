@@ -70,6 +70,7 @@ extension ViewController {
   
 }
 extension ViewController:  UITableViewDataSource, UITableViewDelegate{
+    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return self.news.count
     }

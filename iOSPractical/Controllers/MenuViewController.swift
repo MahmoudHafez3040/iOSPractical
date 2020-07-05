@@ -22,7 +22,7 @@ class MenuViewController: UIViewController,UITableViewDelegate,UITableViewDataSo
 
     @IBOutlet weak var tableViewNew: UITableView!
     override func viewDidLoad() {
-
+        navigationController?.setNavigationBarHidden(true, animated: false)
         requestMenuData()
         registerCellForMenuTableView()
     }
